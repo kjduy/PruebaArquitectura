@@ -3,6 +3,7 @@ package ec.edu.espe.prueba.service;
 import java.util.List;
 
 import ec.edu.espe.prueba.model.CategoriaInstrumento;
+import ec.edu.espe.prueba.model.Empresa;
 
 public interface CategoriaInstrumentoService {
     
