@@ -8,6 +8,6 @@ import ec.edu.espe.prueba.model.Empresa;
 
 public interface EmpresaRepository extends JpaRepository<Empresa, Integer>{
 
-    List<Empresa> findByCodigo(Integer codigo);
+    List<Empresa> buscarPorNombre(String nombre);
     
 }
